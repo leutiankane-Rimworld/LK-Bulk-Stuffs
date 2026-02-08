@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+
+	<!--Bulk Wort-->
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="Brewery"]/recipes</xpath>
+		<value>
+			<li>Make_Wort_BulkLK</li>
+		</value>
+	</Operation>
+</Patch>
